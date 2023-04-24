@@ -1,0 +1,41 @@
+body {
+    background-color: hsl(158, 36%, 37%);
+}
+
+.container {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    max-width: 800px; /* specifica la larghezza massima */
+    margin: 150px auto; /* centra il contenitore orizzontalmente */
+  }
+  
+
+.item-tre {
+  order: 1; /* posizionamento in base all'ordine */
+}
+
+.item-tre img {
+    border-radius: 8px;
+  width: 100%; /* larghezza al 100% per adattarsi al 
+  contenitore */
+}
+
+.item-quattro {
+  order: 2;
+  padding: 0 20px; /* spazio tra l'immagine e il testo */
+}
+
+h1 {
+    margin-top: 25px;
+    font-size:large ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 30px; /* cambia la dimensione del font */
+    font-weight: bold; /* rende il testo in grassetto */
+  }
+  
